@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Shrivastav | Developer Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Background Elements -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-bracket">
+                    << /span>Aryan<span class="logo-slash">/</span><span class="logo-bracket">></span>
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="nav-links">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-item">Home</a></li>
+                    <li><a href="#aboutme" class="nav-item">About</a></li>
+                    <li><a href="#skills" class="nav-item">Skills</a></li>
+                    <li><a href="#projects" class="nav-item">Projects</a></li>
+                    <li><a href="#contact" class="nav-item">Contact</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <button id="theme-toggle" class="icon-btn" aria-label="Toggle Dark Mode">
+                        <i class="fa-regular fa-sun"></i>
+                    </button>
+                    <div class="social-icons">
+                        <a href="https://github.com/aryn247" target="_blank" aria-label="GitHub"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/aryan-shrivastav-8495a0314" target="_blank"
+                            aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+        <div class="container hero-container">
+            <div class="hero-content reveal fade-up">
+                <div class="badge">
+                    <span class="badge-dot"></span> Available for work
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Aryan</span><br>
+                    <span id="typewriter" class="typewriter-text"></span><span class="cursor-blink">|</span>
+                </h1>
+                <p class="hero-subtitle">
+                    A passionate developer building awesome, scalable, and user-centric digital experiences. Let's
+                    create something amazing together.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper reveal fade-left">
+                <div class="profile-frame">
+                    <img src="profiles.jpeg" alt="Aryan Shrivastav" class="profile-img"
+                        onerror="this.src='https://via.placeholder.com/400x400/3b82f6/ffffff?text=Aryan'">
+                </div>
+                <!-- Floating tech icons -->
+                <div class="floating-icon icon-react"><i class="fa-brands fa-react"></i></div>
+                <div class="floating-icon icon-node"><i class="fa-brands fa-node-js"></i></div>
+                <div class="floating-icon icon-python"><i class="fa-brands fa-python"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="aboutme" class="section alt-bg">
+        <div class="container">
+            <div class="section-header reveal fade-up">
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal fade-right">
+                    <h3>Hey there! I'm Aryan Shrivastav 👋</h3>
+                    <p>I'm a passionate BCA student and aspiring software developer with a deep love for building
+                        innovative solutions. My journey in tech started with pure curiosity and quickly turned into a
+                        dedicated mission—to create impactful, efficient, and highly scalable applications.</p>
+                    <p>I believe that technology should fundamentally make life easier and more enjoyable. That’s why I
+                        pour my energy into projects that solve real-world problems while delivering a seamless user
+                        experience.</p>
+                </div>
+
+                <div class="about-cards reveal fade-left">
+                    <div class="glass-card">
+                        <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                        <h4>Full-Stack Dev</h4>
+                        <p>Building responsive web apps with React, Node.js, and modern tools.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="card-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h4>Mobile Dev</h4>
+                        <p>Crafting cross-platform mobile experiences using React Native.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="card-icon"><i class="fa-solid fa-server"></i></div>
+                        <h4>Backend & Cloud</h4>
+                        <p>Designing robust APIs and scalable cloud architectures.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+                        <h4>Problem Solving</h4>
+                        <p>Active in competitive programming and mastering Data Structures.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header reveal fade-up">
+                <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-container reveal fade-up">
+                <div class="skill-tabs">
+                    <button class="tab-btn active" data-tab="frontend">Frontend</button>
+                    <button class="tab-btn" data-tab="backend">Backend</button>
+                    <button class="tab-btn" data-tab="mobile">Mobile & Tools</button>
+                </div>
+
+                <div class="tab-content active" id="frontend">
+                    <div class="skill-grid">
+                        <div class="skill-pill"><i class="fa-brands fa-html5" style="color: #E34F26;"></i> HTML5</div>
+                        <div class="skill-pill"><i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i> CSS3</div>
+                        <div class="skill-pill"><i class="fa-brands fa-js" style="color: #F7DF1E;"></i> JavaScript</div>
+                        <div class="skill-pill"><i class="fa-brands fa-react" style="color: #61DAFB;"></i> React</div>
+                        <div class="skill-pill"><i class="fa-brands fa-vuejs" style="color: #4FC08D;"></i> Vue.js</div>
+                        <div class="skill-pill"><i class="fa-brands fa-sass" style="color: #CC6699;"></i> Sass</div>
+                        <div class="skill-pill"><i class="fa-solid fa-file-code" style="color: #3178C6;"></i> TypeScript
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="backend">
+                    <div class="skill-grid">
+                        <div class="skill-pill"><i class="fa-brands fa-node-js" style="color: #339933;"></i> Node.js
+                        </div>
+                        <div class="skill-pill"><i class="fa-brands fa-python" style="color: #3776AB;"></i> Python</div>
+                        <div class="skill-pill"><i class="fa-brands fa-java" style="color: #007396;"></i> Java</div>
+                        <div class="skill-pill"><i class="fa-solid fa-c" style="color: #A8B9CC;"></i> C / C++</div>
+                        <div class="skill-pill"><i class="fa-brands fa-php" style="color: #777BB4;"></i> PHP</div>
+                        <div class="skill-pill"><i class="fa-solid fa-database" style="color: #336791;"></i> SQL / NoSQL
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="mobile">
+                    <div class="skill-grid">
+                        <div class="skill-pill"><i class="fa-brands fa-react" style="color: #61DAFB;"></i> React Native
+                        </div>
+                        <div class="skill-pill"><i class="fa-brands fa-android" style="color: #3DDC84;"></i> Kotlin
+                        </div>
+                        <div class="skill-pill"><i class="fa-brands fa-swift" style="color: #F05138;"></i> Swift</div>
+                        <div class="skill-pill"><i class="fa-brands fa-git-alt" style="color: #F05032;"></i> Git</div>
+                        <div class="skill-pill"><i class="fa-brands fa-github" style="color: var(--text-color);"></i>
+                            GitHub</div>
+                        <div class="skill-pill"><i class="fa-brands fa-docker" style="color: #2496ED;"></i> Docker</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section alt-bg">
+        <div class="container">
+            <div class="section-header reveal fade-up">
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">A showcase of my recent work and technical experiments.</p>
+            </div>
+
+            <div class="projects-grid reveal fade-up">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-img-placeholder">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://skillldashh.vercel.app" target="_blank" class="btn btn-sm btn-primary">Live
+                                Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="https://github.com/ars2904/SkillDash.git" class="btn btn-sm btn-secondary"><i
+                                    class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>SKILLDASH</h3>
+                        <p>A full-stack freelance marketplace connecting talented professionals with clients. Built with
+                            a robust backend to handle user profiles, job postings, and secure interactions.</p>
+                        <div class="project-tags">
+                            <span>Full-Stack</span>
+                            <span>Marketplace</span>
+                            <span>Freelance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-img-placeholder">
+                            <i class="fa-solid fa-address-card"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://aryn247.github.io/Self-Portfolio/" target="_blank"
+                                class="btn btn-sm btn-primary">Live Demo <i
+                                    class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="https://github.com/aryn247/Self-Portfolio" class="btn btn-sm btn-secondary"><i
+                                    class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A premium, highly interactive personal website built to showcase my software development
+                            work, technical skills, and professional journey.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Vanilla JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card"
+                    style="display: flex; align-items: center; justify-content: center; text-align: center; min-height: 350px;">
+                    <div class="project-info" style="padding: 2rem;">
+                        <i class="fa-solid fa-spinner fa-spin"
+                            style="font-size: 3rem; color: var(--primary); margin-bottom: 1rem;"></i>
+                        <h3 style="margin-bottom: 0.5rem;">More Projects Loading...</h3>
+                        <p>I'm currently working on some exciting new ideas. Check back soon for updates!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-more reveal fade-up">
+                <a href="https://github.com/aryn247" target="_blank" class="btn btn-outline">View More on GitHub <i
+                        class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header reveal fade-up">
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Have a project in mind or just want to say hi? I'd love to hear from you!
+                </p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info reveal fade-right">
+                    <div class="contact-card glass-card">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:aryanshrivastav4370@gmail.com">aryanshrivastav4370@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card glass-card">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials">
+                        <p>Connect with me:</p>
+                        <div class="social-icons large">
+                            <a href="https://github.com/aryn247" target="_blank" aria-label="GitHub"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/aryan-shrivastav-8495a0314" target="_blank"
+                                aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form glass-card reveal fade-left">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" name="message" required placeholder=" " rows="5"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+
+                    <div id="form-status" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <span class="logo-bracket">
+                    << /span>Aryan<span class="logo-slash">/</span><span class="logo-bracket">></span>
+            </div>
+            <p>&copy; <span id="current-year"></span> Aryan Shrivastav. All rights reserved.</p>
+            <button id="back-to-top" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+</body>
+
+</html>
