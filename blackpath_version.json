@@ -1,6 +1,6 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0.0",
+  "versionCode": 3,
+  "versionName": "1.0.2",
   "downloadUrl": "https://github.com/aryn247/BlackPath/raw/main/BlackPath.apk",
-  "releaseNotes": "BlackPath V1 Release: Pure black UI, real GPS tracking, local SQLite DB, closed loop area claiming, and serverless BLE nearby walks."
+  "releaseNotes": "BlackPath V1.0.2: Continuous background GPS walk tracking with module-level task manager & SQLite persistence."
 }
