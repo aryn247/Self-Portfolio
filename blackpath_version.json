@@ -1,6 +1,6 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.2",
+  "versionCode": 4,
+  "versionName": "1.0.3",
   "downloadUrl": "https://github.com/aryn247/BlackPath/raw/main/BlackPath.apk",
-  "releaseNotes": "BlackPath V1.0.2: Continuous background GPS walk tracking with module-level task manager & SQLite persistence."
+  "releaseNotes": "BlackPath V1.0.3: Major long-walk performance overhaul, instant stop walk UI guard, GPU-accelerated path glow, background sync race condition fixes, and smarter loop detection."
 }
