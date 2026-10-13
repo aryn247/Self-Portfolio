@@ -1,6 +1,6 @@
 {
-  "versionCode": 4,
-  "versionName": "1.0.3",
+  "versionCode": 5,
+  "versionName": "2.0.0",
   "downloadUrl": "https://github.com/aryn247/BlackPath/raw/main/BlackPath.apk",
-  "releaseNotes": "BlackPath V1.0.3: Major long-walk performance overhaul, instant stop walk UI guard, GPU-accelerated path glow, background sync race condition fixes, and smarter loop detection."
+  "releaseNotes": "BlackPath V2.0.0: Full audit hardening — SQL injection fix, batched GPS inserts, crypto session IDs, 24h version check cache, React Error Boundary, distance inflation fix, pace/duration edge case guards, single APK URL constant, and cleaned duplicate Android permissions."
 }
